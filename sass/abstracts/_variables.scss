@@ -1,0 +1,9 @@
+$dark_blue: hsl(233, 26%, 24%);
+$lime_Green: hsl(136, 65%, 51%);
+$bright_Cyan: hsl(192, 70%, 51%);
+$grayish_Blue: hsl(233, 8%, 62%);
+$light_grayish_Blue: hsl(220, 16%, 96%);
+$very_Light_Gray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+$main_gradient: linear-gradient(to right, $lime_Green, $bright_Cyan);
+$hover_gradient: linear-gradient(to right, $bright_Cyan, $lime_Green);

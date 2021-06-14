@@ -1,0 +1,15 @@
+{
+  "name": "easybank",
+  "version": "1.0.0",
+  "description": "Landing page for easybank",
+  "main": "index.html",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ravi Chauhan",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.0.1",
+    "node-sass": "^6.0.0"
+  }
+}

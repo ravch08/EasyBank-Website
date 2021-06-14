@@ -1,0 +1,47 @@
+#articles {
+    background-color: $light_grayish_Blue;
+
+    .article_list {
+        @extend .d_flex;
+    }
+
+    .article_card {
+        background-color: $white;
+
+        &:not(:last-child) {
+            margin-right: 1.5em;
+        }
+
+        figure {
+            overflow: hidden;
+            height: 150px;
+        }
+
+        img {
+            width: 100%;
+            transform: scale(1);
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .card_cont {
+            padding: 1em;
+        }
+
+        small {
+            font-size: 0.6em;
+            color: $grayish_Blue;
+        }
+
+        h4 {
+            color: $dark_blue;
+        }
+
+        p {
+            font-size: 0.8em;
+        }
+    }
+}

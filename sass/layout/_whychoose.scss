@@ -1,0 +1,32 @@
+#why_choose {
+    background-color: $light_grayish_Blue;
+
+    .features {
+        @extend .d_flex;
+
+        .feat_items {
+            padding: 0 1em;
+        }
+
+        h3 {
+            padding: 1em 0;
+        }
+
+        p {
+            font-size: 0.9em;
+        }
+    }
+
+    figure {
+        // overflow: hidden;
+
+        img {
+            transform: scale(1.0);
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
